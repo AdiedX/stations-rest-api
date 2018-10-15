@@ -29,6 +29,38 @@ public class Station {
     this.callSign = callSign;
   }
 
+  public String getStationID() {
+    return stationID;
+  }
+
+  public void setStationID(String stationID) {
+    this.stationID = stationID;
+  }
+
+  public String getName() {
+    return name;
+  }
+
+  public void setName(String name) {
+    this.name = name;
+  }
+
+  public boolean isHdEnabled() {
+    return hdEnabled;
+  }
+
+  public void setHdEnabled(boolean hdEnabled) {
+    this.hdEnabled = hdEnabled;
+  }
+
+  public String getCallSign() {
+    return callSign;
+  }
+
+  public void setCallSign(String callSign) {
+    this.callSign = callSign;
+  }
+
   @Override
   public String toString() {
     return String.format(
